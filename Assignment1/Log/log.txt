@@ -1,0 +1,56 @@
+Log Messages - CSV Validation
+Exception occured. Exception:  Field at index '7' does not exist. You can ignore missing fields by setting MissingFieldFound to null.
+IReader state:
+   ColumnCount: 0
+   CurrentIndex: 7
+   HeaderRecord:
+
+IParser state:
+   ByteCount: 0
+   CharCount: 1600
+   Row: 17
+   RawRow: 17
+   Count: 7
+   RawRecord:
+"",Thomas,493,Bermuda Avenue,Norfolk County,Prince Edward Island,J9P 1C6
+
+
+Not processed file: Reason -  ../../../../Sample Data\2017\12\.DS_Store is not a .csv file
+Not processed file: Reason -  ../../../../Sample Data\2017\.DS_Store is not a .csv file
+Exception occured. Exception:  Field at index '1' does not exist. You can ignore missing fields by setting MissingFieldFound to null.
+IReader state:
+   ColumnCount: 0
+   CurrentIndex: 1
+   HeaderRecord:
+
+IParser state:
+   ByteCount: 0
+   CharCount: 1794
+   Row: 20
+   RawRow: 20
+   Count: 1
+   RawRecord:
+Liam
+
+
+Exception occured. Exception:  Field at index '6' does not exist. You can ignore missing fields by setting MissingFieldFound to null.
+IReader state:
+   ColumnCount: 0
+   CurrentIndex: 6
+   HeaderRecord:
+
+IParser state:
+   ByteCount: 0
+   CharCount: 2210
+   Row: 22
+   RawRow: 22
+   Count: 6
+   RawRecord:
+William,Brond Labrador,"B0T 0Y5 ",Canada,212829827,William@system.com
+
+
+Not processed file: Reason -  ../../../../Sample Data\2018\1\.DS_Store is not a .csv file
+Not processed file: Reason -  ../../../../Sample Data\.DS_Store is not a .csv file
+Total Execution Time: 586372 ms
+Total Number of Processed Rows: 188701
+Total Number of Skipped Rows: 81065
